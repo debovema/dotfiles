@@ -112,7 +112,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias code-linux='DONT_PROMPT_WSL_INSTALL=y codium'
+alias code-linux='DONT_PROMPT_WSL_INSTALL=y /usr/bin/code-linux'
+alias codium-linux='DONT_PROMPT_WSL_INSTALL=y codium'
 
 # Windows terminal : duplicate opens in the same directory
 __wt_osc9_9 () {
